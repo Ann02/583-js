@@ -8,4 +8,6 @@ if (hours >= 5 && hours < 11){
   alert ('Доброго вечора')
 }else if(hours >= 23 && hours < 24 || hours >= 0 && hours < 5 ){
   alert ('Доброго ночі')
+}else{
+  alert ('Помилка')
 }
